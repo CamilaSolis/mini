@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Gameplay;
+    src: url(../fonts/Gameplay.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Para centrar*/
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+ /*Para centrar*/
+ body{
+ 	font-family: Helvetica;
+ }
+ .head{
+ 	background-image: url(../img/Perlerfondo.jpg);
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	height: 700px;
+ }
+ .sumate{
+ 	color:white;
+ 	padding: 20px;
+ 	background-color: #386bad;
+ 	text-decoration: none;
+ 	position: relative;
+ 	border-radius: 5px;
+ 	top: 60px;
+ 	font-family: Gameplay;
+ }
+ .sumate:hover{
+ 	background-color: #58a5d9;
+ }
+ .menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 30px 20px;
+ }
+ .menu a{
+ 	color: white;
+ 	text-decoration:none;
+ 	font-size: 20px;
+ 	font-family: Gameplay;
+ 	background-color: #58a5d9;
+ 	padding: 20px;
+ 	position: relative;
+ 	border-radius: 5px;
+ 	top:30px;
+ 	left: 0;
+ }
+ .menu a:hover{
+ 	background-color: #386bad;
+ }
+ .menu{
+ 	text-align: right;
+ }
+ .subtitulo{
+ 	font-family: Gameplay;
+ 	font-size: 20px;
+ 	color:#386bad;
+ 	margin-top: 30px;
+ }
+ .logo{
+ 	text-align: center;
+ 	padding: 0 60px 60px 60px;
+ 	background-color: rgba(255,255,255, 0.6);
+ 	position: relative;
+ 	top: 180px;
+ }
+ .logo img{
+ 	width: 90%;
+ 	margin:0;
+ }
+ .section1{
+ 	background-color: #eaeae8;
+ }
+ .foto1{
+ 	background-image: url(../img/foto1.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 30px auto 10px auto;
+ }
+  .foto2{
+ 	background-image: url(../img/foto2.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 130%;
+ 	background-position: center;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 30px auto 10px auto;
+ }
+  .foto3{
+ 	background-image: url(../img/foto3.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 0 auto;
+ }
+  .foto4{
+ 	background-image: url(../img/foto4.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 0 auto;
+ }
+ .trabajo{
+ 	background-color: white;
+ 	padding: 20px;
+ 	margin: 50px 40px;
+ 	height: 550px;
+ }
+ .nombre{
+ 	font-family: Gameplay;
+ 	font-size: 25px;
+ 	text-align:center;
+ 	margin: 20px 0
+ }
+ .ver{
+ 	display: inline-block;
+ 	color: white;
+ 	text-decoration:none;
+ 	font-size: 15px;
+ 	font-family: Gameplay;
+ 	background-color: #58a5d9;
+ 	padding: 20px;
+ 	border-radius: 5px;
+ 	margin-top: 10px;
+ }
+ .ver:hover{
+    box-shadow: 0px 0px 10px #000000;
+    z-index: 2;
+    transform: scale(1);
+    transition-duration: 1s;
+    opacity: 0.4;
+    color: #a6b8da;
+}
+.ver:hover span{
+	transition-duration: 0.1s;
+	color: #a6b8da;
+}
+ .foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover{
+    box-shadow: 0px 0px 10px #000000;
+    z-index: 2;
+    transform: scale(1.8);
+    transition-duration: 1s;
+    color: #a6b8da;
+}
+.foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover span{
+	transition-duration: 0.5s;
+	color: #a6b8da;
+}
+.foot{
+	background-color: #386aac;
+}
+.footext{
+	margin: 20px 0;
+	color:white;
+	font-size: 12px;
+}
